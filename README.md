@@ -5,6 +5,13 @@ View Information of Error Codes of HTTP, FTP, SMTP from command line
 A simple Ruby Script that will show HTTP, SMTP and FTP Error codes on terminal
 
 
+::REQUIRES::
+rainbow gem
+$gem install rainbow
+OR IN RVM
+ rvm all do gem install rainbow
+
+
 :: USAGE ::
 
 $ ruby codes.rb  PROTOCOL ERROR_CODE
